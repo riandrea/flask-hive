@@ -1,4 +1,5 @@
 /cdr_env/*
 .idea
 requirements.txt
+.gitignore
 

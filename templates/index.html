@@ -1,0 +1,64 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="bka">DASHBOARD</h3>
+            <h6 class="bkb">Overview</h6>
+        </div>
+    </div>
+
+    <hr class="ym zx">
+
+    <!---------------------BEGIN RESULT 1---------------------------->
+    <div class="row result-1">
+        <div class="col-md-6 block">
+            <div align="center">
+                <h1 class="bis apu">
+                    {% for row in result1 %}
+                        {{ row.0 }}
+                    {% endfor %}
+                </h1>
+                <span class="bit">blabla</span><br>
+                <span class="bit">result 1 - A</span>
+            </div>
+        </div>
+        <div class="col-md-6 block">
+            <div align="center">
+                <h1 class="bis apu">
+                    {% for row in result1 %}
+                        {{ row.1 }}
+                    {% endfor %}
+                </h1>
+                <span class="bit">blabla</span><br>
+                <span class="bit">result 1 - b</span>
+            </div>
+        </div>
+    </div>
+
+    <hr class="ym zx">
+    <!---------------------------------RESULT 2--------------------------------------------->
+    <div class="row result-2">
+    {% for row in result2 %}
+        <div class="col-md-2">
+            <p class="text-center">{{ row.field_1 }} </p>
+            <div class="col-md-12">
+                <div class="col-xs-6">
+                    <p class="text-center apu">{{ row.field_2 }}
+                        <span class="text-center">aaaa</span>
+                    </p>
+                </div>
+                <div class="col-xs-6">
+                    <p class="text-center apu">{{ row.field_3 }}
+                        <span class="text-center">bbbb</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+    <!---------------------------------END TOTAL RESULT 2------------------------------------------>
+</div>
+{% endblock %}

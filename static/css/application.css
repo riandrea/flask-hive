@@ -1,0 +1,118 @@
+/* global body padding */
+body {
+  /*padding-top:    20px;
+  padding-bottom: 20px;*/
+  background-color: #252830 !important;
+} 
+@media (min-width: 768px) {
+  body {
+    /*padding-top:    50px;
+    padding-bottom: 50px;*/
+  }
+}
+
+
+/* global spacing overrides */
+h1, h2, h3, h4, h5, h6,
+.a, .b, .c, .d, .e, .f {
+  margin-top: 0;
+}
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.g,
+.h {
+  border-bottom: 0;
+}
+
+.application {
+  height: auto;
+}
+
+/*.center-block {
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.block {
+    
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+.circle {
+    background: #252830;
+    border: 1px solid #4BFF9C !important;
+    border-radius: 200px;
+    color: white;
+    height: 200px;
+    font-weight: bold;
+    width: 200px;
+    display: table;
+    margin: 20px auto;
+    padding-top: 12%;
+}
+.circle p {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+table.cm {
+  color: #6F7890;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*BOOTSTRAP 1.5 COLUMNS*/
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+/* END BOOTSTRAP 1.5 COLUMNS*/
+
+.call-duration-counter {
+    padding-bottom: 40px;
+}
+
+
+.bis h1 {
+    font-size: 3rem !important;
+}
+
+.navbar-inverse {
+  background-color: #30343E;
+}

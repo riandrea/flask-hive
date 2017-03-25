@@ -2,7 +2,7 @@
 
 Flask web framework boilerplate to access [Apache Hive](https://hive.apache.org/) using Cloudera's [Impyla](https://github.com/cloudera/impyla), a python DB API 2.0 client for Impala and Hive (HiveServer2 protocol).
 
-Twitter bootstrap included.
+*Twitter bootstrap and echarts js included*
 
 ####Prerequisites
 Install impyla

@@ -22,7 +22,7 @@ Install thrift version 0.9.3, will not run on version 0.10.0
 
 
 ### CONSIDERATIONS 
-Please take note that I don't recommend to use this to query large data sets, as it will be super slow(this is by design, 
+Please take note that I don't recommend using this to query large data sets, as it will be super slow(this is by design, 
 Hive isn't intended for real time usage) depends on the size of the data.
  
 My intended usage is only to access summary tables in hive

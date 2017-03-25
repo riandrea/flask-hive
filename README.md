@@ -5,6 +5,9 @@ Flask web framework boilerplate to access [Apache Hive](https://hive.apache.org/
 *Twitter bootstrap and echarts js included*
 
 ####Prerequisites
+Install flask
+> pip install flask
+
 Install impyla
 > pip install impyla
 
@@ -14,7 +17,7 @@ Install thrift_sasl
 Install sasl
 > pip install sasl
 
-Install thrift version 0.9.3
+Install thrift version 0.9.3, will not run on version 0.10.0
 > pip install thrift==0.9.3
 
 

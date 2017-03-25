@@ -1,4 +1,4 @@
-###Flask Hive boilerplate
+## Flask Hive boilerplate
 
 Flask web framework boilerplate to access [Apache Hive](https://hive.apache.org/) using Cloudera's [Impyla](https://github.com/cloudera/impyla), a python DB API 2.0 client for Impala and Hive (HiveServer2 protocol).
 
@@ -21,7 +21,7 @@ Install thrift version 0.9.3, will not run on version 0.10.0
 > pip install thrift==0.9.3
 
 
-#####CONSIDERATIONS 
+#### CONSIDERATIONS 
 Please take note that I don't recommend to use this to query large data sets, as it will be super slow(this is by design, 
 Hive isn't intended for real time usage) depends on the size of the data.
  

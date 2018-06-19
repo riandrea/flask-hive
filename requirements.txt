@@ -1,0 +1,5 @@
+flask
+impyla
+thrift_sasl
+sasl
+thrift==0.9.3

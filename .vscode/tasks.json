@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "create env",
+            "type": "shell",
+            "command": "conda create --force -n flask-hive-api python=3.6.4 anaconda"
+        },
+        {
+            "label": "activate env",
+            "type": "shell",
+            "command": "source activate flask-hive-api"
+        },
+        {
+            "label": "install reqs",
+            "type": "shell",
+            "command": "pip install -r requirements.txt"
+        },
+        {
+            "label": "All Pytests",
+            "type": "shell",
+            "command": "pytest -q tests/tests.py --junitxml=reports/testresults.xml --cov=com --cov-report=xml:reports/coverage.xml --cov-report=html:reports/html_dir"
+        }
+    ]
+}
